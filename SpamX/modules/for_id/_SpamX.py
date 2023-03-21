@@ -104,7 +104,7 @@ async def _revert(SpamX: Client, message: Message):
        return
     user_bio = Bio
     if not user_bio:
-       user_bio = "SpamX user!"
+       user_bio = "Tony X Spam user!"
     Reply = await message.reply("reverting...")
     try:
        if LName:
