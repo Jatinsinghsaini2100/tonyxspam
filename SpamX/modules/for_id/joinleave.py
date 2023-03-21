@@ -19,7 +19,7 @@ async def join(SpamX: Client, e: Message):
         return await e.reply_text("Can't join a chat with chat id. Give username or invite link.")
     try:
       await SpamX.join_chat(chat)
-      await e.reply_text("**Join Successfully ✅ **")
+      await e.reply_text("**🔱 Team TONY Join Successfully ✅ **")
     except Exception as ex:
       await e.reply_text(join_errors(ex))
     if LOGS_CHANNEL:
@@ -36,10 +36,10 @@ async def leave(SpamX: Client, e: Message):
     if len(e.text) > 7:
         chat = rizoel[0]
         try:
-           if chat in [-1001321613309, 1321613309, "@DNHxHELL"]:
+           if chat in [-1001321613309, 1321613309, "@sastatony"]:
               return
            await SpamX.leave_chat(chat)
-           await e.reply_text("**Left Successfully ✅ **")
+           await e.reply_text("**💫 Team TONY Left Successfully ✅ **")
         except Exception as ex:
            await e.reply_text(leave_errors(ex))
     else:
@@ -51,7 +51,7 @@ async def leave(SpamX: Client, e: Message):
               return
         try:
            await SpamX.leave_chat(chat)
-           await e.reply_text("**Left Successfully ✅ **")
+           await e.reply_text("**💫Team TONY Left Successfully ✅ **")
         except Exception as ex:
            await e.reply_text(leave_errors(ex))
         if LOGS_CHANNEL:
