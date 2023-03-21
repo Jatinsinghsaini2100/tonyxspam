@@ -32,7 +32,7 @@ class Alive:
 ➠ **pyTONYx Version:** `{pip_vr}`
 ➠ **Group:** @sastatony
 ━───────╮•╭───────━
-➠ **Source Code:** [•Repo•]()
+➠ **LEGEND:** [•Owner Repo•](https://t.me/Sasta_TonyStark)
      """
 
 handler = HNDLR
