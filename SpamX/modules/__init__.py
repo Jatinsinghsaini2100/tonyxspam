@@ -30,9 +30,9 @@ class Alive:
 ➠ **TONYxSPAM Version:** `{__version__}`
 ➠ **Pyrogram Version:** `{pyro_vr}`
 ➠ **pyTONYx Version:** `{pip_vr}`
-➠ **Group:** @
+➠ **Group:** @sastatony
 ━───────╮•╭───────━
-➠ **Source Code:** [•Repo•](https://github.com/RiZoeLX/SpamX)
+➠ **Source Code:** [•Repo•]()
      """
 
 handler = HNDLR
